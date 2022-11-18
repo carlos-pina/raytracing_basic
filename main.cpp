@@ -83,10 +83,10 @@ int main() {
 
     // Image
     const auto aspect_ratio = 3.0 / 2.0;
-    const int image_width = 2000;
+    const int image_width = 2048;
     const int image_height = static_cast<int>(image_width / aspect_ratio);
-    const int samples_per_pixel = 5;
-    const int max_depth = 50;
+    const int samples_per_pixel = 6;
+    const int max_depth = 75;
 
     // World
     auto world = random_scene();
